@@ -51,7 +51,7 @@
   <main>
     <div class="container mt-4">
       <div class="row">
-        <div class="col-12 col-lg-10">
+        <div class="col-12 col-lg-9">
           <div class="row">
             <div class="col-12 d-flex justify-content-between">
               <h2 class="fs-3">Catalogo Libri</h2>
@@ -62,96 +62,131 @@
               <table class="table table-striped">
                 <thead>
                   <tr>
-                    <th scope="col-6">Titolo</th>
-                    <th class="d-none d-md-block" scope="col -2">Data Prestito</th>
-                    <th scope="col-2">Stato</th>
-                    <th scope="col-2">Azioni</th>
+                    <th scope="col">Titolo</th>
+                    <th class="d-none d-md-table-cell" scope="col">Data Prestito</th>
+                    <th scope="col">Stato</th>
+                    <th scope="col">Azioni</th>
                   </tr>
                 </thead>
 
                 <tbody class="fw-light">
                   <tr>
                     <td scope="row fw-light">I pilastri della terra</td>
-                    <td class="d-none d-md-block">Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                    <td class="d-none d-md-table-cell">-</td>
+                    <td><span class="badge bg-success">Disponibile</span></td>
+                    <td class="d-flex">
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm "><i class="fa-solid fa-pencil"></i></button>
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-trash"></i></button>
+                    </td>
                   </tr>
 
                   <tr>
                     <td scope="row fw-light">I promessi sposi</td>
-                    <td class="d-none d-md-block">Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                    <td class="d-none d-md-table-cell">-</td>
+                    <td><span class="badge bg-success">Disponibile</span></td>
+                    <td class="d-flex">
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-pencil"></i></button>
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-trash"></i></button>
+                    </td>
                   </tr>
 
                   <tr>
                     <td scope="row fw-light">Il signore degli anelli</td>
-                    <td class="d-none d-md-block">Larry the Bird</td>
-                    <td>@twitter</td>
-                    <td>@twitter</td>
+                    <td class="d-none d-md-table-cell">18/10/2023</td>
+                    <td><span class="badge bg-warning">In Prestito</span></td>
+                    <td class="d-flex">
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-pencil"></i></button>
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-trash"></i></button>
+                    </td>
                   </tr>
 
                   <tr>
                     <td scope="row fw-light">Harry Potter e la pietra filosofale</td>
-                    <td class="d-none d-md-block">Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                    <td class="d-none d-md-table-cell">-</td>
+                    <td><span class="badge bg-success">Disponibile</span></td>
+                    <td class="d-flex">
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-pencil"></i></button>
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-trash"></i></button>
+                    </td>
                   </tr>
 
                   <tr>
                     <td scope="row fw-light">Il codice Da Vinci</td>
-                    <td class="d-none d-md-block">Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                    <td class="d-none d-md-table-cell">-</td>
+                    <td><span class="badge bg-danger">Non disponibile</span></td>
+                    <td class="d-flex">
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-pencil"></i></button>
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-trash"></i></button>
+                    </td>
                   </tr>
 
                   <tr>
                     <td scope="row fw-light">Shining</td>
-                    <td class="d-none d-md-block">Larry the Bird</td>
-                    <td>@twitter</td>
-                    <td>@twitter</td>
+                    <td class="d-none d-md-table-cell">-</td>
+                    <td><span class="badge bg-success">Disponibile</span></td>
+                    <td class="d-flex">
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-pencil"></i></button>
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-trash"></i></button>
+                    </td>
                   </tr>
 
                   <tr>
                     <td scope="row fw-light">La divina commedia</td>
-                    <td class="d-none d-md-block">Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                    <td class="d-none d-md-table-cell">21/09/2023</td>
+                    <td><span class="badge bg-warning">In Prestito</span></td>
+                    <td class="d-flex">
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-pencil"></i></button>
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-trash"></i></button>
+                    </td>
                   </tr>
 
                   <tr>
                     <td scope="row fw-light">Il trono di spade</td>
-                    <td class="d-none d-md-block">Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                    <td class="d-none d-md-table-cell">-</td>
+                    <td><span class="badge bg-success">Disponibile</span></td>
+                    <td class="d-flex">
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-pencil"></i></button>
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-trash"></i></button>
+                    </td>
                   </tr>
 
                   <tr>
                     <td scope="row fw-light">Il mondo di Sofia</td>
-                    <td class="d-none d-md-block">Larry the Bird</td>
-                    <td>@twitter</td>
-                    <td>@twitter</td>
+                    <td class="d-none d-md-table-cell">-</td>
+                    <td><span class="badge bg-danger">Non disponibile</span></td>
+                    <td class="d-flex"><button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-pencil"></i></button>
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-trash"></i></button>
+                    </td>
                   </tr>
 
                   <tr>
                     <td scope="row">Le cronache di Narnia: il leone, la strega e l'armadio</td>
-                    <td class="d-none d-md-block">Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                    <td class="d-none d-md-table-cell">25/07/2023</td>
+                    <td><span class="badge bg-warning">In Prestito</span></td>
+                    <td class="d-flex">
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-pencil"></i></button>
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-trash"></i></button>
+                    </td>
                   </tr>
 
                   <tr>
                     <td scope="row">Il piccolo principe</td>
-                    <td class="d-none d-md-block">Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                    <td class="d-none d-md-table-cell">-</td>
+                    <td><span class="badge bg-success">Disponibile</span></td>
+                    <td class="d-flex">
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-pencil"></i></button>
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-trash"></i></button>
+                    </td>
                   </tr>
 
                   <tr>
                     <td scope="row">La storia infinita</td>
-                    <td class="d-none d-md-block">Larry the Bird</td>
-                    <td>@twitter</td>
-                    <td>@twitter</td>
+                    <td class="d-none d-md-table-cell">-</td>
+                    <td><span class="badge bg-success">Disponibile</span></td>
+                    <td class="d-flex">
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-pencil"></i></button>
+                      <button type="submit" class="btn btn-outline-secondary bg-light btn-sm"><i class="fa-solid fa-trash"></i></button>
+                    </td>
                   </tr>
 
                   
@@ -162,8 +197,68 @@
 
         </div>
 
-        <div class="col-12 col-lg-2">
+        <div class="col-12 col-lg-3">
+          <div class="row">
+            <div class="col-12 border rounded p-0">
+              <h2 class="bg-light p-3 border-bottom m-0">Todo</h2>
+              <ul class="list-group m-3">
+                <li class="list-group-item">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">Chiamare Segreteria</label>                  
+                </li>
 
+                <li class="list-group-item">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">Mandare avvisi prestiti scaduti</label>                  
+                </li>
+
+                <li class="list-group-item">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">Ordinare nuovi libri</label>                  
+                </li>              
+              </ul>
+            </div>
+
+            <div class="col-12 border rounded p-0 mt-4">
+              <h2 class="bg-light p-3 border-bottom m-0">F.A.Q.</h2>
+              <div class="accordion accordion-flush p-3" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Come aggiungere un nuovo libro?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Come posso accedere all'anagrafica utenti?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Posso usare questa dashboard da mobile?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
